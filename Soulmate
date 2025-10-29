@@ -9,3 +9,7 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: nginx/1.18.0 (Ubuntu)
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
+
+
+ffuf  -u http://soulmate.htb -w /usr/share/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt  -H "Host: FUZZ.soulmate.htb" -fw 4
+
