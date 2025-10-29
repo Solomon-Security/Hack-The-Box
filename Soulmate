@@ -12,4 +12,4 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 
 ffuf  -u http://soulmate.htb -w /usr/share/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt  -H "Host: FUZZ.soulmate.htb" -fw 4
-
+ftp                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 313ms]
