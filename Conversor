@@ -1,1 +1,1 @@
-
+nmap 10.10.11.92 -p- --min-rate=1500 -oN nmap.txt
