@@ -1,1 +1,1 @@
-Planning
+nmap 10.129.27.69 -p- --min-rate=1500 -oN nmap.txt
